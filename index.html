@@ -35,11 +35,13 @@ box-shadow:0 10px 30px rgba(0,0,0,.08);
 text-align:center;
 }
 .avatar{
-width:120px;height:120px;border-radius:50%;
-margin:auto;
-background:var(--soft);
-display:flex;align-items:center;justify-content:center;
-font-size:52px;
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+  margin:auto;
+  border:4px solid #DCC5A1;
 }
 h1{margin:16px 0 6px}
 .handle{opacity:.75;margin-bottom:12px}
@@ -61,7 +63,10 @@ transition:.2s;
 </head>
 <body>
 <div class="card">
-<div class="avatar">🏡</div>
+<img
+  src="file_00000000ba08720882ebe0df7a710ada.png"
+  alt="Teman Sebelah Pintu"
+  class="avatar">
 <h1>Teman Sebelah Pintu</h1>
 <div class="handle">@teman.sebelah.pintu</div>
 
